@@ -1,0 +1,17 @@
+servers:
+  - name: ucapi
+    dir: D:/dev/php/magook/trunk/server/apiserverWorkSpace/ucapi
+    cmdStr: D:/phpStudy/PHPTutorial/php/php-7.2.31-nts-Win32-VC15-x64/php.exe -S 0.0.0.0:8004 server.php
+    proxyPort: 10002
+  - name: ucdb
+    dir: D:/dev/php/magook/trunk/server/dbserverWorkSpace/ucDbserver
+    cmdStr: D:/phpStudy/PHPTutorial/php/php-7.2.31-nts-Win32-VC15-x64/php.exe -S 0.0.0.0:8003 server.php
+  # - name: apidb
+  #   dir: D:/dev/php/magook/trunk/server/dbserverWorkSpace/ucDbserver
+  #   cmdStr: D:/phpStudy/PHPTutorial/php/php-7.2.31-nts-Win32-VC15-x64/php.exe -S 0.0.0.0:8005 server.php
+  # - name: customer_admin
+  #   dir: D:/dev/php/magook/trunk/server/customer_admin
+  #   cmdStr: D:/phpStudy/PHPTutorial/php/php-7.2.31-nts-Win32-VC15-x64/php.exe -S 0.0.0.0:8006 -t public public/router.php
+  # - name: opbackstage
+  #   dir: D:/dev/php/magook/trunk/server/opbackstage
+  #   cmdStr: D:/phpStudy/PHPTutorial/php/php-7.2.31-nts-Win32-VC15-x64/php.exe -S 0.0.0.0:9700 -t public public/router.php
